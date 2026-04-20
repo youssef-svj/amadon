@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background: #232f3e;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.home-content {
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.price {
+    color: #b12704;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-box {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-box.large {
+    width: 800px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #ff9900;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background: #e68a00;
+}
+
+.product-link {
+    text-decoration: none;
+    color: #222;
+}
+
+.product-link:hover {
+    color: #ff9900;
+}
+
+.detail-box {
+    display: flex;
+    gap: 30px;
+    background: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.detail-image {
+    width: 40%;
+}
+
+.detail-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.detail-info {
+    width: 60%;
+}
+
+.success-msg {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.search-form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+}
+
+.search-form input[type="submit"] {
+    padding: 10px;
+    background: #ff9900;
+    border: none;
+    cursor: pointer;
+}
